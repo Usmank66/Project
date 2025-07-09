@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ramabhadra&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ramabhadra';
+}
+
+html {
+    font-size: 60%;
+}
+
+header {
+    background: linear-gradient(270deg,
+            #ceffb8 0%,
+            #91f2cf 100%,
+            #3cffce 100%);
+    width: 100%;
+    padding: 1.9rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease;
+    margin-left: 14rem;
+    text-align: justify;
+
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo .img {
+    margin-right: 4px;
+    margin-bottom: -6px;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    margin: 2rem;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+
+.navbar a:hover {
+    color: rgb(43, 43, 161);
+    border-bottom: 2px solid black;
+}
+
+header button {
+    font-size: 1.8rem;
+    margin-right: 27px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 15px;
+    letter-spacing: 3px;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+section {
+    min-height: 10vh;
+    padding: 10rem 15%;
+}
+
+.home {
+    background: linear-gradient(270deg,
+            #ceffb8 0%,
+            #91f2cf 100%,
+            #3cffce 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 8rem;
+    width: 700px;
+    line-height: 90px;
+    margin-bottom: 18px;
+}
+
+.home-content p {
+    font-size: 15px;
+    width: 390px;
+    line-height: 22px;
+    text-align: center;
+    margin-left: 150px;
+    font-weight: normal;
+}
+
+.btn-group {
+    line-height: 100px;
+}
+
+.btn-1 {
+    font-size: 1.8rem;
+    margin-right: 27px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-1:hover {
+    transform: scale(1.1);
+}
+
+.btn-2 {
+    font-size: 1.8rem;
+    margin-right: 27px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    letter-spacing: 2px;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    transform: scale(1.1);
+}
+
+
+.logo-bar {
+    min-height: 10vh;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.logo-bar .innner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0;
+
+}
+
+.sec-3 {
+    color: white;
+    background-color: #121212;
+}
+
+.sec-content h1 {
+    font-size: 5rem;
+    margin-left: 350px;
+    margin-top: -42px;
+}
+
+.sec-content p {
+    font-size: 1.8rem;
+    margin-left: 310px;
+    width:700px;
+    color: #84a5aa;
+}
+
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.image img {
+    margin-left: -122px;
+    margin-right: -95px;
+}
+
+.dubba{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai{
+    background-color: #121212;
+    color: white;
+}
+
+.ai-content h1{
+    font-size: 5rem;
+    margin-left: 330px;
+    margin-top: -82px;
+    width: 550px;
+    line-height: 64px;
+}
+
+.ai-content p {
+    font-size: 1.8rem;
+    margin-left: 220px;
+    width:700px;
+    color: #84a5aa;
+    text-align: center;
+}
+
+.ai-content-1 h3{
+    font-size: 2.7rem;
+    margin-top: 89px;
+    margin-left: -140px;
+    width: 300px;
+    line-height: 39px;
+}
+
+.ai-content-1 p{
+    font-size: 1.4rem;
+    color: #84a5aa;
+    margin-left: -140px;
+    width: 500px;
+    margin-top: 8px;
+}
+
+.speaker{
+    background-color: #121212;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.right img{
+    margin-left: -280px;
+}
+
+.text{
+    font-size: 2rem;
+    margin-right: -280px;
+    width: 400px;
+}
+
+.ulti{
+    background-color: #121212;
+    color: white;
+}
+
+.head h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-left: 160px;
+    margin-top: -22px;
+    width: 760px;
+    line-height: 70px;
+
+}
+
+.head p{
+    font-size: 2rem;
+    color: #84a5aa;
+    margin-left: 250px;
+    margin-top: 22px;
+}
+
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 169px;
+    width: 400px;
+    color: black;
+   
+    background-color: white;
+    border-radius: 9px;
+    margin-right: 13px;
+    margin-top: 31px;
+}
+
+.box1 h1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 14px;
+    height: 31px;
+    padding: 1.2px 9px;
+    background-color: #ffe090;
+}
+
+.box1 p{
+   font-size: 13px;
+   margin-top: 22px;
+   width: 300px;
+}
+
+.box2 h1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 14px;
+    height: 31px;
+    padding: 1.2px 9px;
+    background-color: #cef298;
+}
+
+.box2 p{
+     font-size: 13px;
+   margin-top: 22px;
+   width: 300px;
+}
+
+.box3 h1{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    font-size: 14px;
+    height: 31px;
+    padding: 1.2px 9px;
+    background-color: #aadbe1;
+}
+
+.box3 p{
+     font-size: 13px;
+   margin-top: 22px;
+   width: 300px;
+}
+
+.sky{
+    background: linear-gradient(270deg,
+            #ceffb8 0%,
+            #91f2cf 100%,
+            #3cffce 100%);
+    color: black;        
+}
+
+.sky-content1 h1{
+    font-size: 5rem;
+    margin-left: 360px;
+    margin-top: -49px;
+}
+
+.sky-content2 img{
+    margin-left: 90px;
+    margin-top: 22px;
+}
+
+.gt{
+    margin-left: 493px;
+}
+
+
+.footer{
+    background-color: black;
+}
