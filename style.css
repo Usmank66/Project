@@ -363,3 +363,100 @@ section {
 .footer{
     background-color: black;
 }
+
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    .home-content p {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sec-content h1,
+    .ai-content h1,
+    .head h1,
+    .sky-content1 h1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sec-content p,
+    .ai-content p,
+    .head p {
+        margin-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .speaker {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .right img,
+    .text {
+        margin: 0;
+    }
+
+    .ai-content-1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ai-content-1 h3,
+    .ai-content-1 p {
+        margin: 10px auto;
+    }
+
+    .gt {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sky-content2 img {
+        margin: 20px auto;
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none; /* or create a toggle menu */
+    }
+
+    .logo {
+        margin-left: 2rem;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        line-height: 2;
+    }
+
+    .logo-bar .innner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
